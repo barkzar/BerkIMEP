@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Battery.qml</file>
+        <file>SpeedGauge.qml</file>
+        <file>charging.png</file>
+        <file>gauge.png</file>
+    </qresource>
+</RCC>
