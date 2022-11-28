@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainPage.qml</file>
+        <file>MainPageButtons.qml</file>
+        <file>MainCustomButton.qml</file>
+        <file>MainItemSpace.qml</file>
+        <file>Battery.qml</file>
+        <file>Gauge.qml</file>
+        <file>MainSignals.qml</file>
+        <file>Diagnoz.qml</file>
+        <file>OutputListesi.qml</file>
+        <file>OutputAlanT.qml</file>
+        <file>OutputButton.qml</file>
+        <file>OutputHizButton.qml</file>
+        <file>OutputOtherButton.qml</file>
+        <file>OutputOtherBGroup.qml</file>
+        <file>InputListesi.qml</file>
+        <file>MotorDurumu.qml</file>
+        <file>MotorInputHataListesi.qml</file>
+        <file>Rota.qml</file>
+        <file>KeyNumpad.qml</file>
+        <file>NumpadButton.qml</file>
+        <file>DispScreen.qml</file>
+        <file>Ayarlar.qml</file>
+        <file>ChangeSettings.qml</file>
+        <file>NewRoute.qml</file>
+    </qresource>
+</RCC>
