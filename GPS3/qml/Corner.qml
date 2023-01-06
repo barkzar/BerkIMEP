@@ -6,7 +6,8 @@ Item {
     property int centerX : mark.x+(mark.width/2)
     property int centerY : mark.y+(mark.height/2)
     property Point location
-    property point screen
+    property point screen : mapView.locationToScreen(location)
+    property int number
 
     id: mark
     width:20
@@ -14,11 +15,19 @@ Item {
     z:2
     x: screen.x - (mark.width/2)
     y: screen.y - (mark.height/2)
+    visible: true
 
     Rectangle{
+    id:background
     anchors.fill: parent
     color:"white"
-    visible: mark.onCompleted? false:true
+    }
+    Text{
+        id:header
+        text: parent.number
+        anchors.centerIn: parent
+        color: "green"
+        font.pixelSize: 15
     }
     MouseArea{
         id: mArea
@@ -32,6 +41,10 @@ Item {
             }
             polylineBuilder.addPoint(corners[0].location)
             markPolyline.graphics.append(createGraphic(polylineBuilder.geometry,lineSymbol))
+
+            button6.checked = false
+            routingTimer.running = false
+            button4.enabled = true
         }
 
         onPressAndHold: {
@@ -41,8 +54,5 @@ Item {
         onPositionChanged: {
 
         }
-
-
-
     }
 }
