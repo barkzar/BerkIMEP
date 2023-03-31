@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/Resources">
+        <file>AppIcon.png</file>
+        <file>settings.png</file>
+        <file>area.png</file>
+        <file>statistics.png</file>
+        <file>status.png</file>
+        <file>back.png</file>
+        <file>triangle.png</file>
+        <file>tractor.png</file>
+        <file>delete.png</file>
+        <file>edit.png</file>
+        <file>frontWheels.png</file>
+        <file>gnsstobodyaxle.png</file>
+        <file>fronttobackshaft.png</file>
+        <file>frontsuspensiontofrontaxle.png</file>
+        <file>backAxletoHardpoint.png</file>
+        <file>gnsstobackaxle.png</file>
+        <file>gnssAntennaHeight.png</file>
+        <file>backWheelSteering.png</file>
+        <file>fourWheelSteering.png</file>
+        <file>frontWheelSteering.png</file>
+        <file>turningradius.png</file>
+    </qresource>
+</RCC>

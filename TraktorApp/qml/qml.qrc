@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file>main.qml</file>
+        <file>MainPage.qml</file>
+        <file>AreaOptions.qml</file>
+        <file>Statistics.qml</file>
+        <file>Versiyon.qml</file>
+        <file>Senaryo.qml</file>
+        <file>Parametre.qml</file>
+        <file>Donanim.qml</file>
+        <file>TextBox.qml</file>
+        <file>VehicleInfo.qml</file>
+        <file>AddParameter.qml</file>
+        <file>VehicleProfile.qml</file>
+        <file>DeletingControl.qml</file>
+    </qresource>
+</RCC>
